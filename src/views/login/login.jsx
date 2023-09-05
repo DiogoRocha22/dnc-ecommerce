@@ -8,6 +8,7 @@ const Login = () => {
     name: null,
     password: null
   })
+
   
   return (
     <section className='login'>
@@ -30,7 +31,9 @@ const Login = () => {
             Validate()
           }} type="password" placeholder='**************' />
 
-          <button type='submit'>ENTRAR</button>
+          <button onClick={() => {
+            console.log(dados)
+          }} type='submit'>ENTRAR</button>
           
         </form>
       </div>
