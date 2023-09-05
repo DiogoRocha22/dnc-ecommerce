@@ -1,0 +1,37 @@
+@use '../../sass/variables' as *;
+
+.search{
+    display: flex;
+    border: 1px solid $input-border-color;
+    border-radius: 15px;
+    width: 1040px;
+    height: 48px;
+    margin: 50px auto;
+    
+    &__inputContainer{
+        display: flex;
+        
+    input{
+        width: 967px;
+        margin-left: 20px;
+        border-radius: 15px;
+        padding-left: 20px;
+        font-size: 20px;
+        color: rgb(104, 104, 104);
+    }
+    input:focus{
+        outline: 0;
+    }
+    }
+
+    
+    
+    img{
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+    
+}

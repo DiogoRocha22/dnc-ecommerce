@@ -1,0 +1,55 @@
+@use '../../sass/variables' as *;
+
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    .container{
+        text-align: center;
+        margin-top: 120px;
+        
+
+        p{
+            margin-top: 10px;
+        }
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+    
+    label{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: start;
+    }
+    
+    input{
+        width: 500px;
+        height: 45px;
+        border: 1px solid $input-border-color ;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+
+    button{
+        background-color: $caract-color;
+        width: 500px;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 45px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+    
+    button:hover{
+        background-color: $button-hover;
+    }
+    
+    
+}

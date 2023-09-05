@@ -1,0 +1,44 @@
+@use '../../sass/variables' as *;
+
+.header-menu{
+    display: flex;
+    background-color: $nav-color;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    &__logo{
+        padding-bottom: 35px;
+        padding-top: 26px;
+        padding-left: 65px;
+        
+    }
+    
+    &__cart{
+        display: flex;
+        padding-top: 6px;
+        padding-right: 60px;
+        cursor: pointer;
+
+
+        h2{
+            font-size: 20px;
+            font-weight: 400;
+            padding-right: 10px;
+        }
+    }
+    ul{
+        display: flex;
+        margin-right: 160px;
+    }
+    li{
+        padding-right: 40px;
+        font-size: 20px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

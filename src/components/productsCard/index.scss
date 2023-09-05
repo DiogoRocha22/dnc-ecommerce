@@ -1,0 +1,29 @@
+@use '../../sass/variables' as *;
+
+.card{
+    border: 1px solid $card-border-color;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+    &__details{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    button{
+        margin-top: 15px;
+        background-color: $caract-color;
+        width: 50%;
+        height: 24px;
+        color: aliceblue;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: $button-hover;
+    }
+}
+
+
+
+
