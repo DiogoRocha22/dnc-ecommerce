@@ -28,7 +28,6 @@ const Login = () => {
           <label htmlFor="password">Senha:</label>
           <input required onChange={(e) => {
             setDados({...dados, password: e.target.value})
-            Validate()
           }} type="password" placeholder='**************' />
 
           <button onClick={() => {
