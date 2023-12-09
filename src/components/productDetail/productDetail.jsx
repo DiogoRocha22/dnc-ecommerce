@@ -12,7 +12,7 @@ const ProductDetail = ({data}) => {
     <div className='productDetail'>
         <div className='productDetail__left'>
             <div className='productDetail__card'>
-                <img src={data.imgPathDetail} alt="" />
+                <img src={data.imgPath} alt="" />
                 <p>{data.title}</p>
             </div>
             
