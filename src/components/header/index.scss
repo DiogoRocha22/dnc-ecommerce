@@ -2,11 +2,13 @@
 
 .header{
     background-color: $nav-color ;
-    width: 100%;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
 
     img{
-        padding-left: 55px;
-        padding-top: 27px;
-        padding-bottom: 48px;
+        padding-bottom: 1rem;
     }
 }

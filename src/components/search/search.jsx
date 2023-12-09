@@ -8,11 +8,14 @@ const Search = () => {
   return (
     <section className='search'>
       <div className='search__inputContainer'>
-        <img src={Lupa} alt="" />
+        <img id='lupa' src={Lupa} alt="" />
         <input type="text" placeholder='O que você está procurando?' />
-      </div>    
-      <img src={Profile} alt="" />
-      <img src={Fav} alt="" />
+      </div>
+
+      <div className='search__icons'>
+        <img src={Profile} alt="" />
+        <img src={Fav} alt="" />
+      </div>
     </section>
   )
 }

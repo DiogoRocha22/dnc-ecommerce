@@ -3,11 +3,12 @@
 .login{
     align-items: center;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     
     .container{
         text-align: center;
-        margin-top: 120px;
+        margin-top: 3rem;
         
 
         p{
@@ -19,30 +20,28 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 30px;
-        margin-bottom: 150px;
+        margin-top: 1rem;
     }
     
     label{
-        margin-top: 30px;
-        margin-bottom: 10px;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
         text-align: start;
     }
     
     input{
-        width: 500px;
-        height: 45px;
+        width: 100%;
         border: 1px solid $input-border-color ;
         border-radius: 10px;
-        padding-left: 20px;
+        padding: 0.8rem 1rem;
     }
 
     button{
         background-color: $caract-color;
-        width: 500px;
-        height: 40px;
+        width: 100%;
         border-radius: 10px;
-        margin-top: 45px;
+        margin-top: 2rem;
+        padding: 0.8rem 1rem;
         cursor: pointer;
         color: aliceblue;
     }
@@ -51,5 +50,14 @@
         background-color: $button-hover;
     }
     
-    
+    @media screen and (max-width: 768px) {
+        .container{
+            padding: 0 2rem;
+        }
+        
+        h1{
+            font-size: 1.2rem;
+        }
+        
+    }
 }

@@ -7,4 +7,12 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    @media only screen and (max-width:1023px) and (min-width:769px){
+        &__products{
+            justify-content: space-around;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
 }
