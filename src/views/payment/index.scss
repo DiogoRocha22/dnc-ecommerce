@@ -5,8 +5,9 @@
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 6%;
-    margin-bottom: 70px;
+    margin-bottom: 9rem;
     margin-top: 110px;
+    position: relative;
     
     
     &__left{
@@ -23,12 +24,17 @@
         button{
             background-color: $caract-color;
             cursor: pointer;
-            width: 100%;
+            width: 70vw;
             height: 38px;
             border-radius: 6px;
             color: aliceblue;
-            margin-top: 55px;
             font-weight: bolder;
+            position: absolute;
+            bottom: -5rem;
+            right: 0;
+            left: 0;
+            display: block;
+            margin: auto;
         }
         button:hover{
             background-color: $button-hover;
@@ -37,7 +43,7 @@
     
     &__input{
         &-text{
-            width: 500px;
+            width: 100%;
             border: 1px solid $input-border-color;
             height: 42px;
             padding-left: 15px;
@@ -59,7 +65,8 @@
 
     &__total{
         margin-top: 10px;
-        width: 550px;
+        width: 100%;
+        margin-left: 2rem;
         border: 1px solid #00000040;
         padding: 20px 40px;
         background-color: #EEEEEE33;
@@ -107,4 +114,31 @@
         display: inline-block;
     }
 
+
+    @media screen and (max-width:768px) {
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+
+        label{
+            font-size: 1.5rem;
+        }
+
+        input{
+            width: 100%;
+        }
+
+        button{
+            width: 100%;
+        }
+
+
+        &__total{
+            width: 100%;
+            padding: 1rem 1rem;
+            margin-bottom: 3rem;
+            margin-left: 0;
+        }
+    }
 }
