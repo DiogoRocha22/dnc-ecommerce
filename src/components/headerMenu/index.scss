@@ -20,11 +20,11 @@
         padding-top: 6px;
         padding-right: 4rem;
         cursor: pointer;
-        transition: 0.5s;
+        transition: 0.3s;
 
         &:hover{
             color: $caract-color;
-            transition: 0.5s;
+            transition: 0.1s;
         }
 
 
@@ -47,7 +47,7 @@
 
         &:hover{
             transform: translateY(-3px);
-            transition: 1s;
+            transition: 0.5s;
         }
     }
     a{
